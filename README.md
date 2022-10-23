@@ -25,8 +25,8 @@
 ### Установка окружения
 Из корня репозитория запустить
 ```
-python3 -m ./.venv
-pip install ./requirements.txt
+python -m venv ./.venv
+pip install -r requirements.txt
 ```
 
 ### Запуск тестов
